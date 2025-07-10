@@ -46,7 +46,7 @@ import createCache from "@emotion/cache";
 import routes from "./routes";
 
 // Vision UI Dashboard React contexts
-import { useVisionUIController, setMiniSidenav, setOpenConfigurator } from "context";
+import { useVisionUIController, setMiniSidenav, setOpenConfigurator } from "./context";
 
 export default function App() {
   const [controller, dispatch] = useVisionUIController();
