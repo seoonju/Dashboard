@@ -31,8 +31,8 @@ jobs:
         with: 
           node-version: '20' # Node.js의 버전
 
-      - name: Install dependencies # npm 의존성 설치
-        uses: bahmutov/npm-install@v1
+      - name: Install dependencies
+        run: npm install
         
       - name: Generate dashboard_data.json
         env:
