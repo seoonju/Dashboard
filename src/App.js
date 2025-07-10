@@ -30,8 +30,8 @@ import Icon from "@mui/material/Icon";
 import VuiBox from "components/VuiBox";
 
 // Vision UI Dashboard React example components
-import Sidenav from "example/Sidenav";
-import Configurator from "example/Configurator";
+import Sidenav from "examples/Sidenav";
+import Configurator from "examples/Configurator";
 
 // Vision UI Dashboard React themes
 import theme from "assets/theme";
