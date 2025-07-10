@@ -29,10 +29,10 @@ const root = createRoot(rootElement);
 
 
 root.render(
-  <BrowserRouter basename="/Dashboard">
+  <HashRouter>
     <VisionUIControllerProvider>
       <App />
   </VisionUIControllerProvider>
-</BrowserRouter>
+</HashRouter>
 )
 
