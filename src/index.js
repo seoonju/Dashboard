@@ -28,9 +28,11 @@ const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
 
 
-root.render(<BrowserRouter>
-  <VisionUIControllerProvider>
-    <App />
+root.render(
+  <BrowserRouter basename="/Dashboard">
+    <VisionUIControllerProvider>
+      <App />
   </VisionUIControllerProvider>
-</BrowserRouter>)
+</BrowserRouter>
+)
 
